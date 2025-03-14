@@ -25,3 +25,42 @@ nes, como bordes, texturas, y partes de objetos.
  
  Capas Densas (Fully Connected): Estas capas conectan todas las neuronas de la capa
  anterior y se encargan de usar las caracter´ısticas extra´ ıdas para realizar la clasificaci´on.
+
+. Requisitos Previos
+
+Antes de ejecutar el código, asegúrate de tener instalado lo siguiente:
+
+Python 3.x
+
+Librerías necesarias: NumPy, OpenCV (cv2), OS, Random, Matplotlib, Pickle, Keras, TensorFlow
+
+2. Cargar y Preparar el Dataset
+
+El dataset utilizado en el proyecto proviene de Kaggle:
+Dog vs Cat Dataset
+
+Pasos:
+
+Descarga el dataset y descomprímelo en tu directorio de trabajo.
+
+Organiza las imágenes en carpetas:
+
+dataset/train/cats/
+
+dataset/train/dogs/
+
+dataset/test/cats/
+
+dataset/test/dogs/
+
+3, Preprocesamiento de Datos
+
+4. Construcción del Modelo CNN
+
+5. Guardar y Cargar el Modelo
+
+ 6. Prueba del Modelo
+    
+ 7. Evaluación del Modelo
+
+ Con esta guía, deberías poder entrenar y ejecutar el modelo de clasificación de imágenes de gatos y perros   
